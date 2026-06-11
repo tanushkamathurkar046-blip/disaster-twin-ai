@@ -21,7 +21,7 @@ def get_coordinates(city):
 # GEMINI API
 # =========================
 
-genai.configure(api_key="YOUR_API_KEY")
+genai.configure(api_key="your_gemini_key")
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 
