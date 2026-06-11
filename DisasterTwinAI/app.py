@@ -21,7 +21,7 @@ def get_coordinates(city):
 # GEMINI API
 # =========================
 
-genai.configure(api_key="")
+genai.configure(api_key="YOUR_API_KEY")
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 
@@ -69,7 +69,7 @@ st.title("🌍 Disaster Twin AI")
 st.subheader("AI Powered Disaster Risk Assessment System")
 
 location = st.text_input("📍 Enter Location")
-api_key = ""
+api_key = "WEATHER_API_KEY"
 
 if location:
 
