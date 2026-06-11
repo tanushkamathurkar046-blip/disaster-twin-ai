@@ -69,7 +69,7 @@ st.title("🌍 Disaster Twin AI")
 st.subheader("AI Powered Disaster Risk Assessment System")
 
 location = st.text_input("📍 Enter Location")
-api_key = "WEATHER_API_KEY"
+api_key = "your_openweather_key"
 
 if location:
 
