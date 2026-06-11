@@ -190,12 +190,12 @@ if st.button("Analyze Disaster"):
     )
 
     image_files = {
-        "Flood": "disaster_images/flood.jpg",
-        "Earthquake": "disaster_images/earthquake.jpg",
-        "Cyclone": "disaster_images/cyclone.jpg",
-        "Drought": "disaster_images/drought.jpg",
-        "Heatwave": "disaster_images/heatwave.jpg",
-        "General Disaster": "disaster_images/general.jpg"
+        "Flood": "DisasterTwinAI/disaster_images/flood.jpg",
+        "Earthquake": "DisasterTwinAI/disaster_images/earthquake.jpg",
+        "Cyclone": "DisasterTwinAI/disaster_images/cyclone.jpg",
+        "Drought": "DisasterTwinAI/disaster_images/drought.jpg",
+        "Heatwave": "DisasterTwinAI/disaster_images/heatwave.jpg",
+        "General Disaster": "DisasterTwinAI/disaster_images/general.jpg"
     }
 
     st.image(
